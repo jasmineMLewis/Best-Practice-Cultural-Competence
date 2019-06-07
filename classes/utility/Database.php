@@ -11,7 +11,6 @@ class Database {
 
     private function __construct() {
         try {
-            //$this->_pdo = new PDO('mysql:host=localhost;dbname=cultural_competence', 'jasmineMonquie', '1slimMINI!');
             $this->_pdo = new PDO('mysql:host=localhost;dbname=cultural_competence', 'root', '');
         } catch (PDOException $e) {
             die("Error connecting to database");
