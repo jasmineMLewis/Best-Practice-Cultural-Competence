@@ -1,0 +1,37 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin:0px;
+    padding:0px; 
+    background-color: #FFF5EE;
+    font-family: serif;
+}
+
+div,h1,h2,h3,h5,h6,form,input,textarea,p,blockquote { 
+    margin:0;
+    padding:0;
+}
+
+/**
+ * Sticky Hedader
+**/
+.navbar navbar-default navbar-fixed-top{
+    background-color: rgb(225, 234, 235);  
+}
+
+.navbar-brand{
+    font-family: serif;
+}
+
+/**
+ * App Name
+**/
+#app_header .app_name > h2{
+    position: fixed;
+    top: 60px;
+    left: 465px;
+    font-size: 50px;
+    font-family: serif;
+    font-weight: bold;
+    color: rgba(26, 89, 120, 0.9);
+}

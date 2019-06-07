@@ -1,0 +1,221 @@
+/**
+ * Header: XULA Name, App Name and App Description
+**/
+#school_header img{
+    width: 140px;
+}
+
+#school_header .xula_img{
+    position: fixed;
+    top: 10px;
+    left: 260px;
+}
+
+#school_header .college_pharamacy_img{
+    position: fixed;
+    top: 10px;
+    right: 250px;
+}
+
+#school_header .xula_name{
+    position: fixed;
+    top: 38px;
+    left: 560px;
+    font-family: serif;
+}
+
+#school_header .xula_name > h2{
+    font-size: 40px;
+    font-family: serif;
+    color: #228B22;
+}
+
+#school_header .college_name > h4{
+    position: fixed;
+    top: 68px;
+    left: 700px;
+    font-size: 30px;
+    font-family: serif;
+    color: #228B22;
+}
+
+#app_header .app_name > h2{
+    position: fixed;
+    top: 155px;
+    left: 465px;
+    font-size: 50px;
+    font-family: serif;
+    color: rgba(26, 89, 120, 0.9);
+}
+
+#app_header .app_descrip > h3{
+    position: fixed;
+    top: 230px;
+    left: 595px;
+    font-family: serif;
+    color: #228B22;
+}
+
+.app_descrip_name_extended{
+    position: fixed;
+    top: 255px;
+    left: 462px;
+    font-family: serif;
+    color: #228B22;
+}
+
+.app_descrip_info_chunk1{
+    position: fixed;
+    top: 300px;
+    left: 370px;
+    color: rgba(26, 89, 120, 0.9);
+    font-family: serif;
+}
+
+.app_descrip_info_chunk2{
+    position: fixed;
+    top: 320px;
+    left: 431px;
+    color: rgba(26, 89, 120, 0.9);
+    font-family: serif;
+}
+
+footer{
+    background-color: rgb(225, 234, 235);
+}
+
+.production{
+    position: absolute;
+    left: 680px;
+color: black;   
+}
+
+.production a{
+    color: #228B22;
+    text-decoration: none;
+}
+
+.pageWrapper{
+    min-height: 100%;
+    margin-bottom: -20px;
+}
+
+.pageWrapper:after{
+    content: "";
+    display: block;
+}
+
+.pageWrapper:after, footer{
+    height: 20px;
+}
+
+#wrapper{
+    width: 60%;
+    right: 580px;
+    min-height: 560px;	
+    margin: 0px auto;	
+    width: 500px;
+    position: fixed;
+}
+
+#wrapper h1{
+    font-size: 48px;
+    color: #228B22;
+    padding: 2px 0px 10px 0px;
+    font-weight: bold;
+    font-family: serif;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+/* line under Log In */
+#wrapper h1:after{
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-top: 10px;
+    font-family: serif;
+    background: -moz-linear-gradient(left, rgba(147,184,189,0) 0%, 
+        rgba(147,184,189,0.8) 20%, rgba(147,184,189,1) 53%, 
+        rgba(147,184,189,0.8) 79%, rgba(147,184,189,0) 100%); 
+    background: -webkit-gradient(linear, left top, right top, 
+        color-stop(0%,rgba(147,184,189,0)), 
+        color-stop(20%,rgba(147,184,189,0.8)), 
+        color-stop(53%,rgba(147,184,189,1)), 
+        color-stop(79%,rgba(147,184,189,0.8)), 
+        color-stop(100%,rgba(147,184,189,0))); 
+    background: -webkit-linear-gradient(left, rgba(147,184,189,0) 0%, 
+        rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 
+        53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+    background: -o-linear-gradient(left, rgba(147,184,189,0) 0%, 
+        rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%, 
+        rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+    background: -ms-linear-gradient(left, rgba(147,184,189,0) 0%, 
+        rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53% 
+        ,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+    background: linear-gradient(left, rgba(147,184,189,0) 0%, 
+        rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%, 
+        rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+}
+
+#contactInfo{
+    position: absolute;
+    top: 380px;
+    width: 88%;	
+    padding: 18px 6% 60px 6%;
+    margin: 0 0 35px 0;
+    background: rgb(247, 247, 247);
+    border: 1px solid rgba(147, 184, 189,0.8);
+    -webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),
+        0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+    -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	
+        0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+    box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),
+        0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+    -webkit-box-shadow: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#wrapper p.gradient{
+    position: absolute;
+    color: rgb(127, 124, 124);
+    left: 0px;
+    height: 25px;
+    width: 440px;
+    padding: 17px 30px 20px 30px;
+    border-top: 1px solid rgb(219, 229, 232);
+    -webkit-border-radius: 0 0  5px 5px;
+    -moz-border-radius: 0 0  5px 5px;
+    border-radius: 0 0  5px 5px;
+    background: rgb(225, 234, 235);
+    background: -moz-repeating-linear-gradient(-45deg, 
+        rgb(247, 247, 247) , 
+        rgb(247, 247, 247) 15px, 
+        rgb(225, 234, 235) 15px, 
+        rgb(225, 234, 235) 30px, 
+        rgb(247, 247, 247) 30px
+        );
+    background: -webkit-repeating-linear-gradient(-45deg, 
+        rgb(247, 247, 247) , 
+        rgb(247, 247, 247) 15px, 
+        rgb(225, 234, 235) 15px, 
+        rgb(225, 234, 235) 30px, 
+        rgb(247, 247, 247) 30px
+        );
+    background: -o-repeating-linear-gradient(-45deg, 
+        rgb(247, 247, 247) , 
+        rgb(247, 247, 247) 15px, 
+        rgb(225, 234, 235) 15px, 
+        rgb(225, 234, 235) 30px, 
+        rgb(247, 247, 247) 30px
+        );
+    background: repeating-linear-gradient(-45deg, 
+        rgb(247, 247, 247) , 
+        rgb(247, 247, 247) 15px, 
+        rgb(225, 234, 235) 15px, 
+        rgb(225, 234, 235) 30px, 
+        rgb(247, 247, 247) 30px
+        );
+}

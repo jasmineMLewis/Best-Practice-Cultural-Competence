@@ -1,0 +1,140 @@
+#wrapper{
+    width: 100%;
+    right: 0px;
+    min-height: 500px;	
+    margin: 0px auto;	
+    width: 1400px;
+    position: relative;
+}
+
+#wrapper h1{
+    font-size: 48px;
+    color: #228B22;
+    padding: 2px 0px 10px 0px;
+    font-weight: bold;
+    font-family: serif;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+/* line under Admin Menu */
+#wrapper h1:after{
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-top: 10px;
+    font-family: serif;
+    background: -moz-linear-gradient(left, rgba(147,184,189,0) 0%, rgba(147,184,189,0.8) 20%, rgba(147,184,189,1) 53%, rgba(147,184,189,0.8) 79%, rgba(147,184,189,0) 100%); 
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(147,184,189,0)), color-stop(20%,rgba(147,184,189,0.8)), color-stop(53%,rgba(147,184,189,1)), color-stop(79%,rgba(147,184,189,0.8)), color-stop(100%,rgba(147,184,189,0))); 
+    background: -webkit-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+    background: -o-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+    background: -ms-linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+    background: linear-gradient(left, rgba(147,184,189,0) 0%,rgba(147,184,189,0.8) 20%,rgba(147,184,189,1) 53%,rgba(147,184,189,0.8) 79%,rgba(147,184,189,0) 100%); 
+}
+
+#menu_nav{
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    width: 100%;
+    min-height: 500px;
+    padding: 18px 6% 60px 6%;
+    background: rgb(247, 247, 247);
+    border: 1px solid rgba(147, 184, 189,0.8);
+    -webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+    -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+    box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+    -webkit-box-shadow: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#menu_nav .nav_container{
+    left: 119px;
+    position: absolute;
+    min-width: 100%;
+}
+
+#menu_nav p.gradient{
+    position: absolute;
+    color: rgb(127, 124, 124);
+    left: 0px;
+    top: 455px;
+    width: 100%;
+    padding: 17px 30px 20px 30px;
+    border-top: 1px solid rgb(219, 229, 232);
+    -webkit-border-radius: 0 0  5px 5px;
+    -moz-border-radius: 0 0  5px 5px;
+    border-radius: 0 0  5px 5px;
+    background: rgb(225, 234, 235);
+    background: -moz-repeating-linear-gradient(-45deg, 
+        rgb(247, 247, 247) , 
+        rgb(247, 247, 247) 15px, 
+        rgb(225, 234, 235) 15px, 
+        rgb(225, 234, 235) 30px, 
+        rgb(247, 247, 247) 30px
+        );
+    background: -webkit-repeating-linear-gradient(-45deg, 
+        rgb(247, 247, 247) , 
+        rgb(247, 247, 247) 15px, 
+        rgb(225, 234, 235) 15px, 
+        rgb(225, 234, 235) 30px, 
+        rgb(247, 247, 247) 30px
+        );
+    background: -o-repeating-linear-gradient(-45deg, 
+        rgb(247, 247, 247) , 
+        rgb(247, 247, 247) 15px, 
+        rgb(225, 234, 235) 15px, 
+        rgb(225, 234, 235) 30px, 
+        rgb(247, 247, 247) 30px
+        );
+    background: repeating-linear-gradient(-45deg, 
+        rgb(247, 247, 247) , 
+        rgb(247, 247, 247) 15px, 
+        rgb(225, 234, 235) 15px, 
+        rgb(225, 234, 235) 30px, 
+        rgb(247, 247, 247) 30px
+        );
+}
+
+/**
+ * Style Nav Menu Glyphicons
+ * 1) Study Inventory
+ * 2) Article Screen Checklist
+ * 3) Data Extraction
+ * 4) QUESTS Apprasial
+ * 5) Kirkpatrick Rating
+**/
+
+span.glyphicon-duplicate{
+    font-size: 12em;
+    left: 18px;
+}
+
+span.glyphicon-list-alt{
+    font-size: 12em;
+    left: 16px;
+}
+
+span.glyphicon-dashboard{
+    font-size: 12em;
+    left: 18px;
+}
+
+span.glyphicon-stats{
+    font-size: 12em;
+    left: 9px;
+}
+
+span.glyphicon-education{
+    font-size: 12em;
+    left: 13px;
+}
+
+.portal_link{
+    font-size: 23px;
+    font-family: serif;
+    color: #228B22;
+    text-align: center;
+}
