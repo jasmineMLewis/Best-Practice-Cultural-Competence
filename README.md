@@ -4,8 +4,6 @@ Best Practice Cultural Competence, a PHP web application, is a custom, peer revi
 
 
 # Technology Used
-FrontEnd: HTML5, CSS3, Javasript
-
-BackEnd: PHP7, PDO, MySQL
-
-Deployment: GoDaddy - PhpMyAdmin
+FrontEnd: HTML5, CSS3, Javasript <br />
+BackEnd: PHP7, PDO, MySQL <br />
+Deployment: GoDaddy - PhpMyAdmin <br />
