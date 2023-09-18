@@ -6,4 +6,4 @@ Best Practice Cultural Competence is a custom, peer-review content management sy
 <b>FrontEnd</b> <br />
 HTML5, CSS3, Javasript <br />
 <b>BackEnd</b> <br />
-PHP7, PDO, SQL, RDMS <br />
+PHP6, PDO, SQL, RDMS <br />
