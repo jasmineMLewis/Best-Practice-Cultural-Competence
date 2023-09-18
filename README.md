@@ -1,6 +1,6 @@
 # Best Practice Cultural Competence
 
-Best Practice Cultural Competence is a custom, peer review web content management system developed for reviewers to assess the teaching practices for healthcare students. It automates the process of assigning codes and reviewers to articles, sequencing phases, and calculate rating of articles.
+Best Practice Cultural Competence is a custom, peer-review content management system for reviewers to assess the teaching practices of healthcare students. It automates the process of assigning codes and reviewers to articles, sequencing stages, and calculate rating of articles.
 
 
 ## Technology Used
